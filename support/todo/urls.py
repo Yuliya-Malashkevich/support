@@ -1,3 +1,13 @@
+# from django.conf.urls import url
+# import views
+#
+#
+# urlpatterns=[
+#     url(r'^todo$', views.todoApi),
+#     url(r'^todo/([0-9]+)$',views.todoApi)
+#  ]
+
+
 from rest_framework import routers
 from .api import TodoViewSet
 
